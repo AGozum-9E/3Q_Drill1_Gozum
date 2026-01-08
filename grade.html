@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Q ICT PROJECT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Grade Calculator</h1>
+    <form>
+    <label>FIRST NAME:</label>
+        <input type="text" id="First" placeholder="Enter your first name"><br>
+    <label>LAST NAME:</label>
+        <input type="text" id="Last" placeholder="Enter your last name"><br>
+
+        <h2>Enter your grades:</h2>
+    <label>SCIENCE:</label>
+        <input type="number" id="Science" placeholder="Enter your SCI GRADE"><br>
+    <label>ENGLISH:</label>
+        <input type="number" id="English" placeholder="Enter your ENG GRADE"><br>
+    <label>FILIPINO:</label>
+        <input type="number" id="Filipino" placeholder="Enter your FIL GRADE"><br>
+    <label>MATH:</label>
+        <input type="number" id="Math" placeholder="Enter your MATH GRADE"><br>
+    <label>ICT:</label>
+        <input type="number" id="Computer" placeholder="Enter your ICT GRADE"><br>
+    <label>PE:</label>
+        <input type="number" id="PhysHealth" placeholder="Enter your PE GRADE"><br>
+    <br>
+        <input type="button" id="result" value="Calculate GWA" py-click="collecting_data">
+    </form>
+    <br>
+    <div id="Output"></div>
+    </div>
+    <py-script src="main.py"></py-script>
+    <script src="script.js"></script>
+</body>
+</html>
