@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+
+h2 {
+    color: whitesmoke;}
+
+h4 {
+    background-color: navy;
+    border-radius: 5px;
+    padding: 10px;
+    color: whitesmoke;
+}
+    
+.container {
+    background-color: whitesmoke;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+
+
+
